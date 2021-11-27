@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
         flex:1,
-        backgroundColor:'#fff',
+        backgroundColor:'#18191a',
     },
     label: {
         width:"90%",
@@ -20,7 +20,8 @@ const styles = StyleSheet.create({
         borderBottomWidth:1,
         borderBottomColor:"#F92E6A",
         marginLeft: 'auto',
-        marginRight:'auto'
+        marginRight:'auto',
+        color: '#fff',
     },
     buttonNewTask:{
         width:60,

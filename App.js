@@ -17,10 +17,11 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Task">
         <Stack.Screen
-          name="Task"
+          name="UNIVESP"
           component={Task}
           options={{
             headerTintColor: "#F92E6A",
+            headerStyle: { backgroundColor: '#3f4142' },
           }}
         />
         <Stack.Screen
@@ -28,6 +29,7 @@ export default function App() {
           component={NewTask}
           options={{
             headerTintColor: "#F92E6A",
+            headerStyle: { backgroundColor: '#3f4142' },
           }}
         />
         <Stack.Screen
@@ -35,6 +37,7 @@ export default function App() {
           component={Details}
           options={{
             headerTintColor: "#F92E6A",
+            headerStyle: { backgroundColor: '#3f4142' },
           }}
         />
       </Stack.Navigator>

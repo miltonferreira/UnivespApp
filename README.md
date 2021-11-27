@@ -1,9 +1,9 @@
 # UnivespApp
 
-APP para o Trabalho de PI VI novembro/2021 da Univesp, turma de Engenharia de Computação/2018
+Aplicativo para Engenharia de Computação 2018.2 - Polo Itapecerica da Serra - SP - 2021
 <br>
-- Funcionalidade do APP e acessar o firebase, acessar irnformações e fazer Login de Usuario.
-- CRUD e autenticação
+- Funcionalidade do aplicativo, acessar o firebase, carregar informações e fazer Login de Usuario.
+- MVP/Protótipo
 
 
 # Jornada do aluno Univesp: App Facilitador
@@ -14,6 +14,3 @@ APP para o Trabalho de PI VI novembro/2021 da Univesp, turma de Engenharia de Co
 
 <img align="center"  src="https://github.com/miguel-henrique/UnivespApp/blob/master/img-readme/AppPI-funcionalidades.png">
 
-Engenharia de Computação 2018.2
-Polo Itapecerica da Serra - SP
-2021

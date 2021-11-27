@@ -3,8 +3,11 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor:"#fff",
+        backgroundColor:"#18191a",
         paddingTop: 20,
+        justifyContent:"center",
+        alignItems: "center",
+        
     },
     Tasks: {
         width:"100%",
@@ -18,15 +21,17 @@ const styles = StyleSheet.create({
 
     },
     DescriptionTask: {
-        width:"75%",
+        width:"100%",
         alignContent:"flex-start",
-        backgroundColor:"#c3c3c3cf",
+        backgroundColor:"#fff",
         padding:12,
         paddingHorizontal:20,
         borderRadius:50,
         marginBottom:5,
         marginRight:15,
-        color:"#282b2db5",
+        color:"#000",
+        fontSize: 20,
+        textAlign: "center"
     },
     buttonNewTask: {
         width:60,
@@ -41,9 +46,19 @@ const styles = StyleSheet.create({
     },
     iconButton: {
         color:"#ffffff",
-        fontSize:25,
+        fontSize:20,
         fontWeight:"bold",
     },
+    img: {
+        width: 150, 
+        height:150,
+        marginBottom: 10,
+    },
+    nome: {
+        fontSize: 25,
+        color: '#fff',
+        marginBottom: 10,
+    }
     
 });
 
